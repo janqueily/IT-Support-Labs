@@ -193,6 +193,8 @@ The result showed:
 
 ## Verifying the Fix
 
+![Successful connectivity tests](../successful-connectivity-tests.png)
+
 After confirming that CLIENT01 could reach the VMware NAT gateway, I tested Internet connectivity using:
 
 `ping 8.8.8.8`
