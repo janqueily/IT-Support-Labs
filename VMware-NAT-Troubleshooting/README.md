@@ -126,6 +126,8 @@ This showed that a failed ping did not necessarily mean there was no local commu
 
 ### Checked the Virtual Network Adapter
 
+![Virtual network adapter device status](../network-adapter-status.png)
+
 Inside CLIENT01, I opened Device Manager and checked the network adapter.
 
 The adapter was:
