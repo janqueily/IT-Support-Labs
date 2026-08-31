@@ -214,6 +214,8 @@ Finally, I tested DNS directly with:
 
 `nslookup google.com`
 
+![DNS verification with nslookup](../nslookup-google.png)
+
 The DNS server used by CLIENT01 was:
 
 `192.168.58.2`
