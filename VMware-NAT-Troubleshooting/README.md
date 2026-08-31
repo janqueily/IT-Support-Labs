@@ -51,6 +51,7 @@ Next I tried:
 `ping 192.168.58.2`
 
 The ping failed.
+
 ![Failed ping to VMware NAT gateway](../failed-gateway-ping.png)
 
 Since the default gateway is the first place the VM needs to reach before going out to the Internet, this told me the problem was probably somewhere between the VM and VMware's NAT network.
@@ -88,6 +89,8 @@ Later, after testing the host-side VMware adapter, CLIENT01 was able to resolve 
 This showed that some local communication on the VMware virtual network was working.
 
 ### Checked VMware Network Settings
+
+![VMnet8 NAT settings](../vmnet8-nat-settings.png)
 
 I opened VMware's Virtual Network Editor and checked VMnet8.
 
