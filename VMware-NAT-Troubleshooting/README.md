@@ -58,6 +58,8 @@ Since the default gateway is the first place the VM needs to reach before going 
 
 ### Checked the Routing Table
 
+![CLIENT01 IPv4 routing table](../route-table.png)
+
 I ran:
 
 `route print`
