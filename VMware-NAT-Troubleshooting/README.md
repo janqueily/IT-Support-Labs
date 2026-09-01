@@ -36,6 +36,8 @@ But when I tried to ping the Internet, it failed.
 
 Command used: `ping 8.8.8.8`
 
+![Failed ping to 8.8.8.8](../failed-internet-ping.png)
+
 I was getting timeouts and "Destination host unreachable."
 
 ## Troubleshooting
