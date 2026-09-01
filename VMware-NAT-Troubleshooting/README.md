@@ -175,6 +175,8 @@ Even though the VMware NAT Service showed as running, CLIENT01 still could not r
 
 ## The Fix
 
+![Restarting the VMware NAT Service](../restart-vmware-nat-service.png)
+
 I opened Command Prompt as Administrator on my host computer.
 
 I restarted the VMware NAT Service using:
