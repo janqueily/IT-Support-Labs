@@ -17,6 +17,10 @@ The VM was able to start normally and had an IP address, but it could not connec
 - Default gateway: 192.168.58.2
 - Subnet mask: 255.255.255.0
 
+### Initial IP Configuration
+
+![Initial IP configuration for CLIENT01](../initial-ipconfig.png)
+
 ## The Problem
 
 At first, CLIENT01 looked like it was configured correctly.
