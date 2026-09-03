@@ -16,6 +16,8 @@ Instead of waiting for a real DNS problem to happen, I intentionally configured 
 - Default gateway: 192.168.58.2
 - DNS configured manually for testing
 
+![Manual DNS configuration used for testing](../manual-dns-configuration.png)
+
 ## Baseline Testing
 
 Before changing anything, I verified that CLIENT01 had working Internet connectivity and DNS resolution.
@@ -68,6 +70,8 @@ The DNS request timed out while trying to contact:
 
 `203.0.113.10`
 
+![Broken DNS test](../broken-dns-test.png)
+
 This showed that CLIENT01 could still reach the Internet by IP address, but it could no longer translate hostnames such as google.com into IP addresses.
 
 ## Diagnosis
@@ -88,6 +92,8 @@ After restoring the correct DNS configuration, I ran:
 
 `ipconfig /flushdns`
 
+![Flushing the DNS cache](../flush-dns-cache.png)
+
 This cleared the local DNS cache so Windows would perform fresh DNS lookups instead of relying on previously cached information.
 
 ## Verifying the Fix
@@ -103,6 +109,8 @@ I ran:
 `nslookup google.com`
 
 All three tests worked successfully again.
+
+![Successful DNS verification](../dns-verification-success.png)
 
 This confirmed that both Internet connectivity and DNS name resolution had been restored.
 
